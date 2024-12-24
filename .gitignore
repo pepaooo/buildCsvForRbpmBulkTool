@@ -1,0 +1,46 @@
+# 1) Archivos de PyCharm (carpeta de configuración del IDE)
+.idea/
+
+# 2) Entornos virtuales comunes (ajusta según el nombre de tu venv)
+venv/
+.venv/
+env/
+.env/
+
+# 3) Archivos de compilación de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 4) Otros archivos temporales (logs, etc.)
+*.log
+*.tmp
+
+# 5) Configuración de paquetes y caches
+*.egg
+*.egg-info/
+.eggs/
+dist/
+build/
+pip-wheel-metadata/
+
+# 6) Archivos de pytest, coverage y similares (opcional)
+htmlcov/
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+
+# 7) Configuración local (por ejemplo, credenciales)
+.envrc
+.env.*
+
+# 8) Archivos de Jupyter Notebook checkpoints (si usas notebooks en el proyecto)
+.ipynb_checkpoints/
+
+# 9) Archivos macOS innecesarios (opcional)
+.DS_Store
+
+# 10) Archivos de Windows innecesarios (opcional)
+Thumbs.db
